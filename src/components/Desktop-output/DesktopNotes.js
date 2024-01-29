@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./DesktopNotes.css";
 import enter from "../../assets/icons/enter.png";
-import DesktopNotesContent from "../notesContentDesktop/DesktopNotesContent";
+import DesktopNotesContent from "../Desktopoutput-design/DesktopNotesContent";
 import usePocketContext from "../../hooks/usePocketContext";
 
 function DesktopNotes() {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./DesktopSidebar.css";
-import CreateNotesPopup from "../createNotesPopupDesktop/CreateNotesPopup";
+import CreateNotesPopup from "../pop-up/CreateNotesPopup";
 import NotesTitle from "../notesSidebar/NotesTitle";
 
 function DesktopSidebar() {
