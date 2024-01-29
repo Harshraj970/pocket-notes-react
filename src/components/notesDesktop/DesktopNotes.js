@@ -51,10 +51,12 @@ function DesktopNotes() {
       content: text.trim(),
       date: new Date().toLocaleDateString("en-GB", {
         day: "numeric",
-        month: "numeric",
+        month: "short",
         year: "numeric",
       }),
-      time: new Date().toLocaleTimeString(),
+      time: new Date().toLocaleTimeString([],{
+        hour: "2-digit", minute: "2-digit",
+      }),
     };
     notes.push(newNoteObj);
     localStorage.setItem(selected, JSON.stringify(notes));

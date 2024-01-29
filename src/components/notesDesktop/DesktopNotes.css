@@ -28,9 +28,9 @@
   font-size: 4vh;
 }
 
-.desktop__notes__title__text{
-    margin-left: 4vh;
-    color: white;
+.desktop__notes__title__text {
+  margin-left: 4vh;
+  color: white;
 }
 
 .desktop__notes__content {
@@ -39,12 +39,11 @@
   height: 57vh;
   max-height: 58vh;
   width: 76vw;
-  background-color:rgba(218, 229, 245, 1);
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-}
-::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
+  background-color: rgba(218, 229, 245, 1);
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
 }
 
 .desktop__notes__content__title {
@@ -58,12 +57,12 @@
   align-items: center;
   height: 30vh;
   width: 76vw;
-  background-color:rgba(0, 31, 139, 1);
+  background-color: rgba(0, 31, 139, 1);
   position: fixed;
   bottom: 0;
 }
 
-.desktop__notes__input > textarea {
+.desktop__notes__input>textarea {
   border: none;
   outline: none;
   border-radius: 1vh;
@@ -72,7 +71,10 @@
   height: 23vh;
   width: 70vw;
   resize: none;
+  overflow: auto;
 }
+
+
 
 .desktop__notes__input img {
   position: absolute;
