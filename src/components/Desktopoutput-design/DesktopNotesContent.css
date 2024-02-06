@@ -12,6 +12,7 @@
     background-color: white;
     text-align: center;
     margin-top: 1rem;
+    border-radius: 10px;
 }
 
 .desktop__notes__content__date__time__details {

@@ -59,3 +59,11 @@
 ::-webkit-scrollbar {
   display: none; /* Chrome, Safari and Opera */
 }
+@media only screen and (max-width: 600px) {
+  /* Styles for screens with a width up to 480 pixels (smartphone size) */
+  .desktop__sidebar {
+    width: 100vw ; 
+    height: 100vh;
+  }
+}
+
